@@ -202,4 +202,11 @@ footer {
         padding: 8px 12px; /* Decrease letter button padding */
         font-size: 0.7rem; /* Decrease letter button font size */
     }
+    .no-name-section {
+        text-align: center; /* Center-align the content */
+        padding: 10px; /* Add padding for better spacing */
+        border: 1px solid #ccc; /* Add a border for visual separation */
+        border-radius: 5px; /* Add border radius for rounded corners */
+        background-color: #f9f9f9; /* Add background color */
+    }
 }
