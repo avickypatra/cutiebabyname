@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name the Cutie 🍼✨🐣</title>
+    <style>
+        /* Your CSS styles here */
+        .suggestion-link {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍼🐣 Name the Cutie 🍼🐣</h1>
+            <p class="subtitle">Choose a Gender</p>
+            <div class="gender-buttons">
+                <button id="boyBtn" class="gender-btn boy-btn active">Boy</button>
+                <button id="girlBtn" class="gender-btn girl-btn">Girl</button>
+            </div>
+            <p class="subtitle">Choose the Starting Letter of the Name</p>
+            <div class="letter-buttons">
+                <div class="letter-row">
+                    <!-- First row of letters (A-M) -->
+                </div>
+                <div class="letter-row">
+                    <!-- Second row of letters (N-Z) -->
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="name-display">
+                <button id="prevBtn" class="nav-btn prev-btn">&lt; Previous</button>
+                <div id="nameContainer">
+                    <div id="name">Name</div>
+                    <div id="meaning">Meaning</div>
+                    <div id="suggestionLink"></div>
+                </div>
+                <button id="nextBtn" class="nav-btn next-btn">Next &gt;</button>
+            </div>
+        </main>
+
+        <footer>
+            <p class="attribution">Names sourced from Hindi and Sanskrit origins.</p>
+        </footer>
+    </div>
