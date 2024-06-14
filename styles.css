@@ -158,3 +158,48 @@ footer {
     transform: scale(1.05); /* Slightly increase size when active */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a stronger box shadow when active */
 }
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px; /* Decrease body font size for better readability */
+    }
+
+    .container {
+        max-width: 90%; /* Reduce container width for smaller screens */
+        padding: 10px; /* Decrease container padding */
+    }
+
+    header h1 {
+        font-size: 2rem; /* Decrease header font size */
+    }
+
+    .subtitle {
+        font-size: 1rem; /* Decrease subtitle font size */
+    }
+
+    .gender-btn, .letter-buttons button, .nav-btn {
+        padding: 8px 16px; /* Decrease button padding */
+        font-size: 0.8rem; /* Decrease button font size */
+    }
+
+    .name-display {
+        padding: 10px; /* Decrease name display padding */
+    }
+
+    #name {
+        font-size: 1.5rem; /* Decrease name font size */
+    }
+
+    #meaning {
+        font-size: 1rem; /* Decrease meaning font size */
+    }
+
+    .attribution {
+        font-size: 0.7rem; /* Decrease attribution font size */
+    }
+
+    .letter-buttons button {
+        padding: 8px 12px; /* Decrease letter button padding */
+        font-size: 0.7rem; /* Decrease letter button font size */
+    }
+}
