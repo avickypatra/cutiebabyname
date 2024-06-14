@@ -10,6 +10,13 @@
         .suggestion-link {
             margin-top: 10px;
         }
+        .no-name-section {
+            text-align: center; /* Center-align the content */
+            padding: 10px; /* Add padding for better spacing */
+            border: 1px solid #ccc; /* Add a border for visual separation */
+            border-radius: 5px; /* Add border radius for rounded corners */
+            background-color: #f9f9f9; /* Add background color */
+        }
     </style>
 </head>
 <body>
@@ -36,9 +43,11 @@
             <div class="name-display">
                 <button id="prevBtn" class="nav-btn prev-btn">&lt; Previous</button>
                 <div id="nameContainer">
-                    <div id="name">Name</div>
-                    <div id="meaning">Meaning</div>
-                    <div id="suggestionLink"></div>
+                    <div class="no-name-section">
+                        <div id="name">Name</div>
+                        <div id="meaning">Meaning</div>
+                        <div id="suggestionLink"></div>
+                    </div>
                 </div>
                 <button id="nextBtn" class="nav-btn next-btn">Next &gt;</button>
             </div>
@@ -49,7 +58,6 @@
         </footer>
     </div>
 
-    <!-- Add this line to link to your JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>
